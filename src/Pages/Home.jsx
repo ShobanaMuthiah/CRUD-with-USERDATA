@@ -42,7 +42,7 @@ return(
         <div className="col">{ele.website}</div></p>
         <p className="card-text row row-cols-2">
         <div className="col lab">Company: </div>
-        <div className="col">{ele.company.name}</div></p>
+        <div className="col">{ele.company.companyname}</div></p>
         
         <p className="card-text row row-cols-2">
         <div className="col lab">Company CatchPhrase: </div>

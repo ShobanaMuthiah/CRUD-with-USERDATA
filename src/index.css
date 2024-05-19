@@ -42,9 +42,10 @@ footer{
   font-weight: 500 !important;
   font-style: normal;
     font-size: 20px;
-    color: #ff0000;
-    text-shadow: 0 0 10px #d08df2, 0 0 10px #c56ee8, 0 0 20px #e200e6, 0 0 30px #e600c4, 0 0 40px #db00e6, 0 0 50px #e40bef, 0 0 60px #ff0256;
-    text-align: center;
+    color: #ff8000; 
+    text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.5), 
+        2px -1px 1px rgba(207, 118, 53, 0.922); 
+        text-align: center;
 
   }
 .collapse{

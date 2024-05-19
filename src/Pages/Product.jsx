@@ -38,6 +38,14 @@ await axios.delete(`https://66462c1a51e227f23aae13b2.mockapi.io/api/UserData/${i
         <th>Name</th>
         <th>User Name</th>
         <th>Email</th>
+        <th>Phone</th>
+        <th>Flat No</th>
+        <th>Street</th>
+        <th>City</th>
+        <th>Website</th>
+        <th>Company Name</th>
+        <th>Company CatchPhrase</th>
+        <th>Business</th>
         <th colSpan={2} className='text-center'>Actions</th>
 
       </tr>
@@ -48,10 +56,20 @@ await axios.delete(`https://66462c1a51e227f23aae13b2.mockapi.io/api/UserData/${i
                 <tr key={index}>
                 <th scope='row'>{e.id}</th>
                 <td>{e.userid}</td>
-
                 <td>{e.name}</td>
                 <td>{e.username}</td>
-                <td>{e.email}</td>
+                <td className='word-wrap'>{e.email}</td>
+                <td>{e.phone}</td>
+                <td>{e.address.suite}</td>
+                <td>{e.address.street}</td>
+                <td>{e.address.city}</td>
+
+                <td>{e.website}</td>
+                <td>{e.company.companyname}</td>
+                <td>{e.company.catchPhrase}</td>
+                <td>{e.company.bs}</td>
+
+
                 <td><button className='btn btn-warning 'onClick={()=>{handleEdit(e.id)}}>edit</button></td>
 
                 <td><button className='btn btn-danger ' onClick={()=>{handleDelete(e.id)}}>delete</button></td>
