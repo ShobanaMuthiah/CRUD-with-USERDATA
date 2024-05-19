@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8056a29 !important;
+}
+.lab{
+color: #ff0256 !important;
+}
+
+.card{
+    background-color: #7c06a70f;
+}
+.card-body{
+    background-color: #ee349121;
+}
+nav{
+    background-color: #ef76f847;
+}
+footer{
+    background-color: #ef76f847;
+    width: 100%;
+    margin: 0 auto;
+    border-top: #ff93f6 3px solid;
+    padding:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link {
+    text-decoration: none !important;
+    color:rgb(159, 8, 8) !important;
+    font-weight: 600 !important;
+}
+.glow {
+    font-family: "Expletus Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500 !important;
+  font-style: normal;
+    font-size: 20px;
+    color: #ff0000;
+    text-shadow: 0 0 10px #d08df2, 0 0 10px #c56ee8, 0 0 20px #e200e6, 0 0 30px #e600c4, 0 0 40px #db00e6, 0 0 50px #e40bef, 0 0 60px #ff0256;
+    text-align: center;
+
+  }
+.collapse{
+    display:flex !important;
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+}
